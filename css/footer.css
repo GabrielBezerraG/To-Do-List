@@ -1,0 +1,30 @@
+.footer {
+   background-color: var(--footer);
+   padding: 1.25rem 0 1rem;
+   margin: 0 1.5rem 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   line-height: 1.15rem;
+}
+
+.footer__gabriel {
+   font-size: 0.90rem;
+}
+
+.footer__year {
+   font-size: 0.80rem;
+}
+
+@media screen and (min-width: 768px) {
+   .footer {
+      margin: 0 calc(30% - 175px) 1.5rem;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .footer {
+      margin: 0 calc(35% - 250px) 1.5rem;
+   }
+}
+

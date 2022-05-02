@@ -1,0 +1,65 @@
+.inputs, .task-editor {
+   display: flex;
+   flex-direction: column;
+}
+
+.insert-item, .task-editor__text {
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
+   border: 1px solid var(--grey);
+   outline: none;
+   color: inherit;
+}
+
+.insert-item::placeholder {
+   color: var(--grey-font);
+}
+
+.add-item {
+   margin-bottom: 2em;
+   background-color: var(--brown);
+}
+
+.add-item:hover {
+   background-color: var(--brown-hover);
+   cursor: pointer;
+}
+
+.task-editor {
+   order: 1;
+}
+
+.task-editor__button {
+   margin-bottom: 2em;
+   background-color: var(--yellow);
+}
+
+.task-editor__button:hover {
+   background-color: var(--yellow-hover);
+   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+   .inputs, .task-editor {
+      flex-direction: row;
+   }
+
+   .insert-item, .task-editor__text {
+      padding: 0.75rem 1.5rem;
+      margin-bottom: 2.5rem;
+      border-right: none;
+      flex-grow: 1;
+   }
+   
+   .add-item, .task-editor__button {
+      margin-bottom: 2.5rem;
+   }
+
+}
+
+@media screen and (min-width: 1440px) {
+   .insert-item, .task-editor__text {
+      font-size: 1.05rem;
+      padding-left: 1.75rem;
+   }
+}

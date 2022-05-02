@@ -1,0 +1,101 @@
+body {
+   font-family: 'Nunito', sans-serif;
+   color: var(--black-font);
+   text-align: center;
+   background: no-repeat fixed linear-gradient(var(--green), var(--light-green))
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--white);
+   padding: 1.5rem 1rem 0;
+   margin: 1.5rem 1.5rem 0;
+   box-shadow: 0 15px 50px var(--grey-shadow);
+   min-height: 80vh;
+}
+
+.title {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3rem;
+   padding-bottom: 1.5rem;
+   font-weight: 400;
+}
+
+.horizontal-line {
+   width: 100%;
+   margin-bottom: 1.5rem;
+   border-top: 1px solid var(--grey);
+}
+
+.current-day {
+   margin-bottom: 2rem;
+   line-height: 1.5rem;
+}
+
+.today {
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: var(--dark-green);
+}
+
+.day-month {
+   color: var(--grey-font);
+}
+
+.invisible {
+   display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+   .container {
+      padding: 3rem 2rem 0;
+      margin: 2rem calc(30% - 175px) 0;
+      min-height: 75vh;
+   }
+
+   .title {
+      font-size: 3.25rem;
+      padding-bottom: 2.5rem;
+   }
+
+   .horizontal-line {
+      margin-bottom: 2.5rem;
+   }
+
+   .current-day {
+      margin-bottom: 2.5rem;
+   }
+
+   .today {
+      font-size: 1.75rem;
+   }
+
+   .day-month {
+      font-size: 1.2rem;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .container {
+      padding: 3rem 3rem 0;
+      margin: 2rem calc(35% - 250px) 0;
+   }  
+
+   .title {
+      font-size: 3.5rem;
+   }
+
+   .current-day {
+      margin-bottom: 2.75rem;
+   }
+
+   .today {
+      font-size: 1.8rem;
+   }
+
+   .day-month {
+      font-size: 1.3rem;
+   }
+}
