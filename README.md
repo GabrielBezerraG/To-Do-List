@@ -1,5 +1,5 @@
 # To Do List  &nbsp; 🇧🇷
-Lista de Tarefas com layout simples e responsivo desenvolvido apenas com HTML, CSS e Javascript Vanilla. Todo o código foi escrito em inglês.
+Lista de Tarefas com layout simples e responsivo desenvolvido apenas com HTML, CSS e JavaScript Vanilla. Todo o código foi escrito em inglês.
 
 ## Funcionalidades
 - Navegar pelo teclado usando as teclas tab e enter
@@ -19,7 +19,7 @@ Não se esqueça! Se você abrir o arquivo HTML diretamente no browser não cons
 <p>&nbsp;</p>
 
 # To Do List  &nbsp; 🇺🇸
-To Do List with a simple and responsive layout developed with only HTML, CSS and Vanilla Javascript.
+To Do List with a simple and responsive layout developed with only HTML, CSS and Vanilla JavaScript.
 
 ## Functionalities
 - Keyboard navigation with tab and enter keys
