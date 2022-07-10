@@ -1,4 +1,4 @@
-# To Do List  &nbsp; 🇧🇷
+# To Do List  &nbsp;🇧🇷
 Lista de Tarefas com layout simples e responsivo desenvolvido apenas com HTML, CSS e JavaScript Vanilla. Todo o código foi escrito em inglês. [Link para a página](https://gabrielbezerrag.github.io/To-Do-List/)
 
 ## Funcionalidades
@@ -18,7 +18,7 @@ Não se esqueça! Se você abrir o arquivo HTML diretamente no browser não cons
 
 <p>&nbsp;</p>
 
-# To Do List  &nbsp; 🇺🇸
+# To Do List  &nbsp;🇺🇸
 To Do List with a simple and responsive layout developed with only HTML, CSS and Vanilla JavaScript. [Link to the page](https://gabrielbezerrag.github.io/To-Do-List/)
 
 ## Functionalities
